@@ -13,7 +13,7 @@ This project focuses on enhancing cloud data security using a hybrid approach th
 ## **Technologies Used**  
 - **Programming Language:** Java, JSP  
 - **Database:** MySQL  
-- **Frameworks & Libraries:** Swing for GUI  
+- **Frameworks & Libraries:** Django for GUI  
 
 ## **System Workflow**  
 1. **User uploads a file** → Encrypted using **AES & ECC**.  
@@ -24,15 +24,30 @@ This project focuses on enhancing cloud data security using a hybrid approach th
 6. **Decryption & Extraction** → Reverse process to retrieve the original data.  
 
 ## **Installation & Setup**  
-1. Clone the repository:  
-   ```sh  
-   git clone https://github.com/Enhanced-Encryption-of-Cloud-Data-using-Hybrid-Cryptography-and-Steganography.git  
-   ```  
-2. Install dependencies:  
-   - Java Development Kit (JDK)  
-   - MySQL Database  
-   - JSP & Swing Libraries  
-3. Run the application through your preferred Java IDE.  
+
+``` 
+ 1. git clone https://github.com/gowthamand/django-crud-ajax-login-register-fileupload
+
+ 2. Change settings.py MYSQL CONFIGURATIONS (name, user, password)
+
+ 3. cd django-crud-ajax-login-register-fileupload
+
+ 4. pip3 install -r requirements.txt
+
+ 5. python3 manage.py migrate
+
+ 6. python3 manage.py makemigrations
+
+ 7. python3 manage.py migrate
+
+ 8. python3 manage.py runserver
+
+ 9. Login to http://127.0.0.1:8000
+
+ 10. python manage.py createsuperuser (enter username, email, password)
+
+```
+
 
 ## **Future Enhancements**  
 - Implement **multi-user access control**.  
