@@ -26,7 +26,7 @@ This project focuses on enhancing cloud data security using a hybrid approach th
 ## **Installation & Setup**  
 
 ``` 
- 1. git clone https://github.com/gowthamand/django-crud-ajax-login-register-fileupload
+ 1. git clone https://github.com/Enhanced-Encryption-of-Cloud-Data-using-Hybrid-Cryptography-and-Steganography
 
  2. Change settings.py MYSQL CONFIGURATIONS (name, user, password)
 
