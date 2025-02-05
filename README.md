@@ -11,7 +11,7 @@ This project focuses on enhancing cloud data security using a hybrid approach th
 - **Secure Cloud Storage:** Protects data from unauthorized access.  
 
 ## **Technologies Used**  
-- **Programming Language:** Java, JSP  
+- **Programming Language:** Python
 - **Database:** MySQL  
 - **Frameworks & Libraries:** Django for GUI  
 
